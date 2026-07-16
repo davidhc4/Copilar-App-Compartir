@@ -1,0 +1,18 @@
+[project]
+name = "deuda-gym"
+version = "1.8.0"
+description = "App para controlar deudas del gym"
+requires-python = ">=3.8"
+dependencies = [
+    "flet>=0.85.0"
+]
+
+[tool.flet]
+app_name = "Deuda Gym"
+app_id = "com.tudeuda.deudagym"
+version = "1.8.0"
+pwa = true
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
